@@ -1,0 +1,13 @@
+package Classandobject;
+
+ abstract public class first2 {
+	 int rno = 1;
+	abstract  void  marksheet();
+}
+ class jack extends first2{
+	 
+	 public void marksheet()
+	 {
+		 System.out.println("hello here.."+rno);
+	 }
+ }

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;byteorientedway&apos;" deleteContents="false" description="Delete resource &apos;byteorientedway&apos;" element1="/byteorientedway" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1720333146656"/>&#x0A;<refactoring comment="Delete resource &apos;byteoriendedway&apos;" deleteContents="false" description="Delete resource &apos;byteoriendedway&apos;" element1="/byteoriendedway" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1720333183164"/>
+</session>

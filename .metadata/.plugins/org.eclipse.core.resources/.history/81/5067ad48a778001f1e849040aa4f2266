@@ -1,0 +1,19 @@
+package Classandobject;
+/***
+   final use with variable,method,class
+   final meas to fixed.
+   
+   -->> when you create a final variable that means that value be not change
+ */
+
+public class finalall {
+	final int age =20;
+
+}
+
+class getage extends finalall{
+	public static void main(String[] args) {
+		getage a = new getage();
+		System.out.println("hello my age is "+a.age);
+	}
+}

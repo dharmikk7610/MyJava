@@ -1,0 +1,17 @@
+package abstractioninterface;
+
+ interface first {
+	void result();
+}
+
+class make implements first{
+	public void  result()
+	{
+		System.out.println("hii am dharmik");
+	}
+ 
+	public static void main(String[] args) {
+		make m = new make();
+		m.result();
+	}
+}

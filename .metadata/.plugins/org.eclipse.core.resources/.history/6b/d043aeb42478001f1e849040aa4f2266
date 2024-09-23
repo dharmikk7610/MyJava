@@ -1,0 +1,13 @@
+package Classandobject;
+
+ abstract public class first2 {
+	
+	public String name = "dharmik";
+	
+	abstract public void  marksheet()
+	{
+		int rno ;
+		
+	}
+
+}

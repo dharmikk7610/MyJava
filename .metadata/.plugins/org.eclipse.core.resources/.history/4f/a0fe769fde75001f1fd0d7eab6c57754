@@ -1,0 +1,27 @@
+package Classandobject;
+
+/*
+	all constructure (default,copy,paramiteresed)
+	object : collection of class -->>real world entity
+	class : intent of object -->>logical entity
+*/
+
+class Student {
+	int rno;
+	String name;
+	public void write()
+	{
+		System.out.println("hello bachho");
+	}
+}
+public class first1 {
+	
+	
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		s1.name="dharmik";
+		s1.rno = 12;
+		s1.write();
+	}
+
+}
