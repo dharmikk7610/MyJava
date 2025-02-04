@@ -9,6 +9,7 @@ class thread1 extends Thread {
 		for(int i=0;i<5;i++)
 		{
 			System.out.println(i);
+			System.out.println(Thread.currentThread().getName());
 		}
 	}
 }
@@ -19,6 +20,7 @@ class thread2 extends Thread {
 	{
 		System.out.println("hello");
 		System.out.println("guizees");
+		System.out.println(Thread.currentThread().getName());
 		
 	}
 	

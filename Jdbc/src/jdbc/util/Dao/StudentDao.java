@@ -1,5 +1,6 @@
 package jdbc.util.Dao;
 
+
 import java.sql.Connection;
 //import java.sql.SQLException;
 import java.sql.Statement;
@@ -16,7 +17,7 @@ public class StudentDao {
 		String insertQuery = "INSERT INTO student(name ,std,marks) VALUES ('"+name+"','"+std+"','"+marks+"')";
 		Statement stmt = null;
 		Connection conn = Dbconnection.getConnection();
-		
+		System.out.println(conn +"conn");
 		if(conn!=null)
 		{
 			//create statement object

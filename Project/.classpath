@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Jdbc/mysql-connector-j-9.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dharmik/Documents/workspace-spring-tool-suite-4-4.22.1.RELEASE/Jdbc/mysql-connector-j-9.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

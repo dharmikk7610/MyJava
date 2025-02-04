@@ -20,6 +20,7 @@ public class StudentpreDao {
 		PreparedStatement pstmt = null; 
 		String insertQuery  = "INSERT INTO student (name,std,marks) VALUES (?,?,?)";
 		Connection conn = Dbconnection.getConnection();
+		System.out.println(conn +"connw");
 		try {
 			pstmt=conn.prepareStatement(insertQuery);
 			

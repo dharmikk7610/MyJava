@@ -43,10 +43,10 @@ public class StudentDao2 {
 
 	// delete data_base................
 
-	public int deletestudent(int rno) {
+	public int deletestudent(Studentbeen sbeen) {
 		Statement stmt = null;
 		int row = 0;
-		String deleteQuery = "delete from student where rno=" + rno;
+		String deleteQuery = "delete from student where rno=" + sbeen.getRno();
 		System.out.println(deleteQuery);
 		Connection conn = Dbconnection.getConnection();
 		try {
@@ -64,7 +64,7 @@ public class StudentDao2 {
 		int row = 0;
 		Statement stmt = null;
 		String updateQuery = "update student set name='" + sbeen.getName() + "', std='" + sbeen.getStd() + "',marks='"
-				+ sbeen.getMarks() + "' where rno=" + rno;
+				+ sbeen.getMarks() + "' where rno=" + sbeen.getRno();
 		System.out.println(updateQuery);
 		Connection conn = new Dbconnection().getConnection();
 
@@ -134,10 +134,14 @@ public class StudentDao2 {
 		 * 
 		 * 
 		 * Scanner sc = new Scanner( System.in); System.out.println("Enter Rno Which you
-		 * want update Student record : "); int rno = sc.nextInt(); sc.nextLine();
-		 * System.out.println("Enter Name : "); String name = sc.nextLine();
-		 * System.out.println("Enter Std : "); String std = sc.nextLine();
-		 * System.out.println("Enter Marks : "); int marks = sc.nextInt();
+		 * want update Student record : "); 
+		 * int rno = sc.nextInt(); sc.nextLine();
+		 * System.out.println("Enter Name : "); 
+		 * String name = sc.nextLine();
+		 * System.out.println("Enter Std : "); 
+		 * String std = sc.nextLine();
+		 * System.out.println("Enter Marks : "); 
+		 * int marks = sc.nextInt();
 		 * 
 		 * Studentbeen sbeen = new Studentbeen(0, name, std, marks);
 		 * 

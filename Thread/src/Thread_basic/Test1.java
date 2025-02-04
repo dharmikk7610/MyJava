@@ -13,6 +13,7 @@ public class Test1 extends Thread {
 		
 		Test1 t1 = new Test1();
 		t1.start();
-//		t1.start(); when write same second time then eccour  a exception
+//		t1.start();
+//		when write same second time then eccour  a exception
 	}
 }

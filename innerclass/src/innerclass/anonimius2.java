@@ -16,6 +16,7 @@ class india {
 			System.out.println("my name is dharmik");	
 		}	
 	};
+	
 }
 public class anonimius2 {
 	public static void main(String args[])

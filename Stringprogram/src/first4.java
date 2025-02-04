@@ -13,7 +13,7 @@ public class first4 {
 					count++;
 					if(count>=2)
 					{
-					System.out.println("duplicate character ="+s.charAt(i));
+						System.out.println("duplicate character ="+s.charAt(i));
 					}
 					
 				}

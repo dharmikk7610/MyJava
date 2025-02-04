@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 class Student {
-	int rno;
-	String name;
-	int std;
+	private int rno;
+	private String name;
+	private int std;
 
 	Student() {
 
