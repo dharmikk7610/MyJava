@@ -8,7 +8,8 @@ public class m1 extends Thread {
 	{
 		System.out.println("hello medam");
 		Thread.currentThread().setName("dharmik");
-		System.out.println(Thread.currentThread().getName());  
+		System.out.println(Thread.currentThread().getName()); 
+//		System.out.println(m.isAlive());
 	}
 	
 	public static void main(String[] args) {

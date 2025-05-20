@@ -30,6 +30,10 @@ public class prioritymethod extends Thread {
 		prioritymethod m2 = new prioritymethod();
 		m2.setPriority(MIN_PRIORITY);
 		m2.start();
+		
+		prioritymethod m3 = new prioritymethod();
+		m3.setPriority(NORM_PRIORITY);
+		m3.start();
 	}
 
 }

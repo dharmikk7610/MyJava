@@ -24,7 +24,7 @@ public class Vehicle {
 			v = new Twvehicle();
 			 v.name();
 			 
-		Twvehicle tv = (Twvehicle)v;
+		Twvehicle tv = (Twvehicle)v;//downcasting 
 		tv.myinfo();
 			 break;
 		}
